@@ -16,7 +16,7 @@ document.onkeyup = function(event){
 
 	//Determines if player guessed right letter.
 	//Player gets 10 guesses. After 10 guesses, player loses.
-	for (i = 1; i > 0; i--){
+	for (var i = 1; i > 0; i--){
 		guessesLeft--;
 		guesses = playerGuess + " " + guesses;
 
