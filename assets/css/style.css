@@ -1,0 +1,40 @@
+body {
+	font-size: 20px;
+	text-align: center;
+}
+
+img {
+	width: 10%;
+	height: auto;
+	float: left;
+	margin: 2%;
+}
+
+.img2 {
+	float: right;
+}
+
+h1 {
+	font-size: 80px;
+	float: left;
+	text-align: center;
+	width: 72%;
+}
+
+p {
+	clear: both;
+	font-size: 30px;
+	text-align: center;
+}
+
+#wins {
+	color: green; 
+}
+
+#losses {
+	color: red;
+}
+
+#guessesLeft, #guesses {
+	color: blue;
+}
